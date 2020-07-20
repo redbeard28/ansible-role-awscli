@@ -8,4 +8,4 @@
 
 - name: "{{ ansible_distribution | lower }} | {{ ansible_distribution_release }} - Install with pip3"
   pip:
-    requirements: "{{ requirements_path }}/requirements-azure.txt"
+    requirements: "{{ requirements_path }}/requirements.txt"
